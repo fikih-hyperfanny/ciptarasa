@@ -11,3 +11,16 @@
     @apply font-sans antialiased bg-background text-foreground;
   }
 }
+
+/* Custom background colors */
+.bg-ciptarasa-yellow {
+  background-color: #fff9c4 !important; /* Very light yellow */
+}
+
+.bg-ciptarasa-yellow-light {
+  background-color: #fffde7 !important; /* Extra light yellow */
+}
+
+.bg-ciptarasa-yellow-dark {
+  background-color: #fff176 !important; /* Darker yellow */
+}

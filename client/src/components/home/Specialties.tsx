@@ -89,7 +89,7 @@ function SpecialtyCard({ item, index, onAddToCart }: {
 }) {
   return (
     <motion.div
-      className="bg-yellow-50 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300"
+      className="bg-ciptarasa-yellow-light rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300"
       variants={fadeIn("up", "tween", 0.1 * index, 1)}
       initial="hidden"
       whileInView="show"
