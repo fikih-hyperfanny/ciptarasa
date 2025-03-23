@@ -17,19 +17,19 @@ export default function Locations() {
             className="text-primary font-medium"
             variants={fadeIn("up", "tween", 0.1, 1)}
           >
-            Our Locations
+            Lokasi Kami
           </motion.span>
           <motion.h2 
             className="text-3xl md:text-4xl font-playfair font-bold mt-2 mb-4"
             variants={fadeIn("up", "tween", 0.2, 1)}
           >
-            Find Us Near You
+            Temukan Kami di Dekat Anda
           </motion.h2>
           <motion.p 
             className="max-w-2xl mx-auto text-gray-600"
             variants={fadeIn("up", "tween", 0.3, 1)}
           >
-            Visit one of our 5 locations across Indonesia or order online for delivery.
+            Kunjungi salah satu dari 5 lokasi kami di seluruh Indonesia atau pesan secara online untuk pengiriman.
           </motion.p>
         </motion.div>
         
@@ -43,7 +43,7 @@ export default function Locations() {
           >
             <img 
               src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&q=80&w=800" 
-              alt="Map Location" 
+              alt="Lokasi Peta" 
               className="w-full h-[400px] object-cover" 
             />
           </motion.div>
@@ -81,10 +81,10 @@ export default function Locations() {
                 </p>
                 <div className="flex space-x-2">
                   <button className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary/90 transition">
-                    Get Directions
+                    Petunjuk Arah
                   </button>
                   <button className="px-4 py-2 bg-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-300 transition">
-                    Order Now
+                    Pesan Sekarang
                   </button>
                 </div>
               </motion.div>

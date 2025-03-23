@@ -7,7 +7,7 @@ const testimonials = [
     name: "Siti Nurhaliza",
     location: "Jakarta",
     rating: 5,
-    testimonial: "The best Mie Ayam I've ever tasted! The broth is so flavorful and the chicken is tender. Definitely recommend the Bakso Beranak too!",
+    testimonial: "Mie Ayam terenak yang pernah saya coba! Kuahnya sangat lezat dan ayamnya empuk. Saya juga sangat merekomendasikan Bakso Beranak!",
     image: "https://randomuser.me/api/portraits/women/45.jpg"
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Budi Santoso",
     location: "Bandung",
     rating: 4.5,
-    testimonial: "I order from CiptarasaNusantara at least once a week. Their delivery is always on time and the food is still hot when it arrives. Great service!",
+    testimonial: "Saya memesan dari CiptarasaNusantara setidaknya seminggu sekali. Pengiriman mereka selalu tepat waktu dan makanan masih panas saat tiba. Pelayanan luar biasa!",
     image: "https://randomuser.me/api/portraits/men/32.jpg"
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Dewi Lestari",
     location: "Surabaya",
     rating: 5,
-    testimonial: "The authenticity of the flavors reminds me of the street food I grew up with. Their Pangsit Goreng is so crispy and delicious!",
+    testimonial: "Keaslian cita rasa mengingatkan saya pada jajanan kaki lima yang saya nikmati sejak kecil. Pangsit Goreng mereka sangat renyah dan lezat!",
     image: "https://randomuser.me/api/portraits/women/68.jpg"
   }
 ];
@@ -43,19 +43,19 @@ export default function Testimonials() {
             className="text-primary font-medium"
             variants={fadeIn("up", "tween", 0.1, 1)}
           >
-            Customer Reviews
+            Ulasan Pelanggan
           </motion.span>
           <motion.h2 
             className="text-3xl md:text-4xl font-playfair font-bold mt-2 mb-4"
             variants={fadeIn("up", "tween", 0.2, 1)}
           >
-            What Our Customers Say
+            Apa Kata Pelanggan Kami
           </motion.h2>
           <motion.p 
             className="max-w-2xl mx-auto text-gray-600"
             variants={fadeIn("up", "tween", 0.3, 1)}
           >
-            Hear from our satisfied customers about their experience with our food and service.
+            Dengarkan pengalaman pelanggan kami yang puas dengan makanan dan layanan kami.
           </motion.p>
         </motion.div>
         

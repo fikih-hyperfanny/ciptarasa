@@ -16,25 +16,25 @@ export default function AboutSection() {
               className="text-primary font-medium"
               variants={fadeIn("right", "tween", 0.1, 1)}
             >
-              Our Story
+              Kisah Kami
             </motion.span>
             <motion.h2 
               className="text-3xl md:text-4xl font-playfair font-bold mt-2 mb-6"
               variants={fadeIn("right", "tween", 0.2, 1)}
             >
-              Traditional Recipes With Modern Touch
+              Resep Tradisional dengan Sentuhan Modern
             </motion.h2>
             <motion.p 
               className="text-gray-600 mb-4"
               variants={fadeIn("right", "tween", 0.3, 1)}
             >
-              Founded in 2010, CiptarasaNusantara began as a small family-owned warung in Jakarta, dedicated to preserving authentic Indonesian flavors while bringing them to a wider audience.
+              Didirikan pada tahun 2010, CiptarasaNusantara berawal dari sebuah warung keluarga kecil di Jakarta, yang berdedikasi melestarikan cita rasa asli Indonesia sambil memperkenalkannya kepada khalayak yang lebih luas.
             </motion.p>
             <motion.p 
               className="text-gray-600 mb-6"
               variants={fadeIn("right", "tween", 0.4, 1)}
             >
-              Our recipes have been passed down through three generations, and we take pride in using only the freshest ingredients sourced from local farmers. Each bowl of Mie Ayam and Bakso is crafted with love and attention to detail.
+              Resep kami telah diwariskan selama tiga generasi, dan kami bangga menggunakan bahan-bahan terbaik yang bersumber dari petani lokal. Setiap mangkuk Mie Ayam dan Bakso dibuat dengan penuh cinta dan perhatian terhadap detail.
             </motion.p>
             <motion.div 
               className="flex space-x-6 mt-8"
@@ -42,15 +42,15 @@ export default function AboutSection() {
             >
               <div>
                 <div className="text-3xl font-bold text-primary">12+</div>
-                <div className="text-gray-600">Years of Experience</div>
+                <div className="text-gray-600">Tahun Pengalaman</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary">5</div>
-                <div className="text-gray-600">Locations</div>
+                <div className="text-gray-600">Lokasi</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary">100%</div>
-                <div className="text-gray-600">Satisfaction</div>
+                <div className="text-gray-600">Kepuasan</div>
               </div>
             </motion.div>
           </motion.div>
@@ -68,7 +68,7 @@ export default function AboutSection() {
             >
               <img 
                 src="https://images.unsplash.com/photo-1626082922482-ac8b9b2817ba?auto=format&fit=crop&q=80&w=800" 
-                alt="Our Restaurant" 
+                alt="Restoran Kami" 
                 className="w-full h-[400px] object-cover" 
               />
             </motion.div>
@@ -78,7 +78,7 @@ export default function AboutSection() {
             >
               <img 
                 src="https://images.unsplash.com/photo-1605333396915-47ffad9b6dcd?auto=format&fit=crop&q=80&w=500" 
-                alt="Chef Preparing Food" 
+                alt="Koki Menyiapkan Makanan" 
                 className="w-full h-full object-cover" 
               />
             </motion.div>
@@ -88,7 +88,7 @@ export default function AboutSection() {
             >
               <img 
                 src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&q=80&w=400" 
-                alt="Ingredients" 
+                alt="Bahan-bahan" 
                 className="w-full h-full object-cover" 
               />
             </motion.div>
