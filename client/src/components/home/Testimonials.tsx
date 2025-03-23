@@ -30,7 +30,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-primary/5">
+    <section className="py-20 bg-yellow-100">
       <div className="container mx-auto px-4">
         <motion.div 
           className="text-center mb-16"
@@ -82,7 +82,7 @@ function TestimonialCard({ testimonial, index }: {
 }) {
   return (
     <motion.div 
-      className="bg-white p-6 rounded-xl shadow hover:shadow-md transition duration-300"
+      className="bg-yellow-50 p-6 rounded-xl shadow hover:shadow-md transition duration-300"
       variants={fadeIn("up", "tween", 0.1 * (index + 1), 1)}
       initial="hidden"
       whileInView="show"
