@@ -34,10 +34,8 @@ export default function Hero() {
             Temukan cita rasa Indonesia yang otentik dengan Mie Ayam dan Bakso tradisional kami yang disajikan dengan penuh cinta dan semangat.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/menu">
-              <a className="px-8 py-4 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition text-center">
-                Lihat Menu Kami
-              </a>
+            <Link href="/menu" className="px-8 py-4 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition text-center inline-block">
+              Lihat Menu Kami
             </Link>
             <a href="#locations" className="px-8 py-4 bg-transparent border-2 border-white text-white font-medium rounded-lg hover:bg-white/10 transition text-center">
               Temukan Lokasi

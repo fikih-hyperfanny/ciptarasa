@@ -83,7 +83,7 @@ export default function Specialties() {
 }
 
 function SpecialtyCard({ item, index, onAddToCart }: { 
-  item: { id: number; name: string; description: string; price: number; image: string; };
+  item: { id: number; name: string; description: string; price: number; image: string; category?: string; };
   index: number;
   onAddToCart: () => void;
 }) {

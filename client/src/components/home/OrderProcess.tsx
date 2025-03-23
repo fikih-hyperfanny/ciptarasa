@@ -95,10 +95,8 @@ export default function OrderProcess() {
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
         >
-          <Link href="/menu">
-            <a className="px-8 py-4 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition">
-              Pesan Sekarang
-            </a>
+          <Link href="/menu" className="px-8 py-4 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition inline-block">
+            Pesan Sekarang
           </Link>
         </motion.div>
       </div>
