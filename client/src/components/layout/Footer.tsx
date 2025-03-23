@@ -9,8 +9,8 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-playfair font-bold mb-6">CiptarasaNusantara</h3>
             <p className="text-gray-300 mb-6">
-              Bringing authentic Indonesian flavors to your table since 2010. Our mission is to preserve traditional recipes 
-              while making them accessible to everyone.
+              Menghadirkan cita rasa Indonesia yang otentik ke meja makan Anda sejak 2010. Misi kami adalah melestarikan resep tradisional
+              sambil menjadikannya dapat diakses oleh semua orang.
             </p>
             <div className="flex space-x-4">
               <SocialLink href="#" icon="facebook" />
@@ -22,29 +22,29 @@ export default function Footer() {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Quick Links</h3>
+            <h3 className="text-xl font-semibold mb-6">Tautan Cepat</h3>
             <ul className="space-y-3">
-              <li><FooterLink href="/">Home</FooterLink></li>
+              <li><FooterLink href="/">Beranda</FooterLink></li>
               <li><FooterLink href="/menu">Menu</FooterLink></li>
-              <li><FooterLink href="/about">About Us</FooterLink></li>
-              <li><FooterLink href="/contact">Contact</FooterLink></li>
+              <li><FooterLink href="/about">Tentang Kami</FooterLink></li>
+              <li><FooterLink href="/contact">Kontak</FooterLink></li>
             </ul>
           </div>
           
           {/* Opening Hours */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Opening Hours</h3>
+            <h3 className="text-xl font-semibold mb-6">Jam Buka</h3>
             <ul className="space-y-3">
               <li className="flex justify-between">
-                <span className="text-gray-300">Monday - Friday</span>
+                <span className="text-gray-300">Senin - Jumat</span>
                 <span className="text-amber-400">10:00 - 22:00</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-gray-300">Saturday</span>
+                <span className="text-gray-300">Sabtu</span>
                 <span className="text-amber-400">09:00 - 22:00</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-gray-300">Sunday</span>
+                <span className="text-gray-300">Minggu</span>
                 <span className="text-amber-400">09:00 - 21:00</span>
               </li>
             </ul>
@@ -52,21 +52,21 @@ export default function Footer() {
           
           {/* Newsletter */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Newsletter</h3>
+            <h3 className="text-xl font-semibold mb-6">Buletin</h3>
             <p className="text-gray-300 mb-4">
-              Subscribe to receive updates, access to exclusive deals, and more.
+              Berlangganan untuk menerima pembaruan, akses ke penawaran eksklusif, dan lainnya.
             </p>
             <form className="flex mb-4" onSubmit={(e) => e.preventDefault()}>
               <input
                 type="email"
-                placeholder="Your email address"
+                placeholder="Alamat email Anda"
                 className="px-4 py-2 rounded-l-lg w-full focus:outline-none text-neutral-800"
-                aria-label="Email address"
+                aria-label="Alamat email"
               />
               <button
                 type="submit"
                 className="bg-primary hover:bg-primary/90 transition text-white px-4 py-2 rounded-r-lg"
-                aria-label="Subscribe"
+                aria-label="Berlangganan"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <line x1="22" y1="2" x2="11" y2="13"></line>
@@ -74,16 +74,16 @@ export default function Footer() {
                 </svg>
               </button>
             </form>
-            <p className="text-sm text-gray-400">By subscribing, you agree to our Privacy Policy.</p>
+            <p className="text-sm text-gray-400">Dengan berlangganan, Anda menyetujui Kebijakan Privasi kami.</p>
           </div>
         </div>
         
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} CiptarasaNusantara. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} CiptarasaNusantara. Hak Cipta Dilindungi.</p>
           <div className="flex justify-center space-x-6 mt-4 text-sm">
-            <a href="#" className="hover:text-amber-400 transition">Privacy Policy</a>
-            <a href="#" className="hover:text-amber-400 transition">Terms of Service</a>
-            <a href="#" className="hover:text-amber-400 transition">Cookie Policy</a>
+            <a href="#" className="hover:text-amber-400 transition">Kebijakan Privasi</a>
+            <a href="#" className="hover:text-amber-400 transition">Syarat Layanan</a>
+            <a href="#" className="hover:text-amber-400 transition">Kebijakan Cookie</a>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ function SocialLink({ href, icon }: { href: string, icon: string }) {
     <a 
       href={href}
       className="text-gray-300 hover:text-amber-400 transition"
-      aria-label={`Follow us on ${icon}`}
+      aria-label={`Ikuti kami di ${icon}`}
     >
       {getIcon()}
     </a>
