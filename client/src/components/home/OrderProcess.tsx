@@ -5,8 +5,8 @@ import { fadeIn, staggerContainer } from "@/lib/animations";
 const steps = [
   {
     id: 1,
-    title: "Choose Your Favorites",
-    description: "Browse our menu and select your favorite dishes and customize as needed.",
+    title: "Pilih Favorit Anda",
+    description: "Jelajahi menu kami dan pilih hidangan favorit Anda beserta kustomisasi sesuai kebutuhan.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -15,8 +15,8 @@ const steps = [
   },
   {
     id: 2,
-    title: "Add to Cart",
-    description: "Review your selections and add them to your cart for checkout.",
+    title: "Tambahkan ke Keranjang",
+    description: "Tinjau pilihan Anda dan tambahkan ke keranjang untuk pembayaran.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -25,8 +25,8 @@ const steps = [
   },
   {
     id: 3,
-    title: "Quick Payment",
-    description: "Securely pay online with multiple payment options available.",
+    title: "Pembayaran Cepat",
+    description: "Bayar dengan aman secara online dengan berbagai pilihan pembayaran.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
@@ -35,8 +35,8 @@ const steps = [
   },
   {
     id: 4,
-    title: "Fast Delivery",
-    description: "Track your order as it makes its way to your doorstep.",
+    title: "Pengiriman Cepat",
+    description: "Pantau pesanan Anda saat dalam perjalanan menuju rumah Anda.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -61,19 +61,19 @@ export default function OrderProcess() {
             className="text-primary font-medium"
             variants={fadeIn("up", "tween", 0.1, 1)}
           >
-            How It Works
+            Cara Pemesanan
           </motion.span>
           <motion.h2 
             className="text-3xl md:text-4xl font-playfair font-bold mt-2 mb-4"
             variants={fadeIn("up", "tween", 0.2, 1)}
           >
-            Easy Ordering Process
+            Proses Pemesanan Mudah
           </motion.h2>
           <motion.p 
             className="max-w-2xl mx-auto text-gray-600"
             variants={fadeIn("up", "tween", 0.3, 1)}
           >
-            Getting your favorite Indonesian dishes delivered is quick and simple.
+            Menikmati hidangan Indonesia favorit Anda diantar ke rumah dengan cepat dan mudah.
           </motion.p>
         </motion.div>
         
@@ -97,7 +97,7 @@ export default function OrderProcess() {
         >
           <Link href="/menu">
             <a className="px-8 py-4 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition">
-              Order Now
+              Pesan Sekarang
             </a>
           </Link>
         </motion.div>
