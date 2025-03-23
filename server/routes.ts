@@ -3,8 +3,22 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSchema, insertOrderSchema, type OrderValidation } from "@shared/schema";
 import { z } from "zod";
+import { createTransaction } from "./midtrans";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  app.post("/api/payment/create", async (req, res) => {
+    try {
+      const { orderId, amount, customerDetails } = req.body;
+      const transaction = await createTransaction(orderId, amount, customerDetails);
+      res.json({
+        token: transaction.token,
+        redirect_url: transaction.redirect_url
+      });
+    } catch (error) {
+      console.error("Error creating payment:", error);
+      res.status(500).json({ message: "Failed to create payment" });
+    }
+  });
   // prefix all routes with /api
   
   // Menu items routes
