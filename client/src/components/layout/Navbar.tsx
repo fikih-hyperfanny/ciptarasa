@@ -35,10 +35,10 @@ export default function Navbar() {
           </Link>
           
           <div className="hidden md:flex space-x-8 font-medium">
-            <NavLink href="/" isScrolled={isScrolled} currentPath={location}>Home</NavLink>
+            <NavLink href="/" isScrolled={isScrolled} currentPath={location}>Beranda</NavLink>
             <NavLink href="/menu" isScrolled={isScrolled} currentPath={location}>Menu</NavLink>
-            <NavLink href="/about" isScrolled={isScrolled} currentPath={location}>About</NavLink>
-            <NavLink href="/contact" isScrolled={isScrolled} currentPath={location}>Contact</NavLink>
+            <NavLink href="/about" isScrolled={isScrolled} currentPath={location}>Tentang</NavLink>
+            <NavLink href="/contact" isScrolled={isScrolled} currentPath={location}>Kontak</NavLink>
           </div>
           
           <div className="flex items-center space-x-4">
@@ -87,10 +87,10 @@ export default function Navbar() {
             transition={{ duration: 0.3 }}
           >
             <div className="container mx-auto px-4 py-3 flex flex-col space-y-3">
-              <MobileNavLink href="/">Home</MobileNavLink>
+              <MobileNavLink href="/">Beranda</MobileNavLink>
               <MobileNavLink href="/menu">Menu</MobileNavLink>
-              <MobileNavLink href="/about">About</MobileNavLink>
-              <MobileNavLink href="/contact">Contact</MobileNavLink>
+              <MobileNavLink href="/about">Tentang</MobileNavLink>
+              <MobileNavLink href="/contact">Kontak</MobileNavLink>
             </div>
           </motion.div>
         )}

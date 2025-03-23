@@ -26,19 +26,19 @@ export default function Specialties() {
             className="text-primary font-medium"
             variants={fadeIn("up", "tween", 0.1, 1)}
           >
-            Our Specialties
+            Menu Spesial Kami
           </motion.span>
           <motion.h2 
             className="text-3xl md:text-4xl font-playfair font-bold mt-2 mb-4"
             variants={fadeIn("up", "tween", 0.2, 1)}
           >
-            Signature Dishes
+            Hidangan Unggulan
           </motion.h2>
           <motion.p 
             className="max-w-2xl mx-auto text-gray-600"
             variants={fadeIn("up", "tween", 0.3, 1)}
           >
-            Our famous Indonesian specialties cooked with traditional recipes passed down through generations.
+            Hidangan spesial Indonesia kami dimasak dengan resep tradisional yang diwariskan turun-temurun.
           </motion.p>
         </motion.div>
         
@@ -61,7 +61,7 @@ export default function Specialties() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <Link href="/menu" className="inline-flex items-center space-x-2 text-primary font-medium hover:text-secondary transition">
-            <span>View Full Menu</span>
+            <span>Lihat Menu Lengkap</span>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
             </svg>

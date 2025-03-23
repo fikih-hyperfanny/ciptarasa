@@ -28,19 +28,19 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h1 className="text-4xl md:text-6xl font-bold font-playfair text-white leading-tight mb-4">
-            Authentic <span className="text-amber-400">Indonesian</span> Flavors
+            Citarasa <span className="text-amber-400">Nusantara</span> Asli
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8">
-            Discover the authentic taste of Indonesia with our traditional Mie Ayam and Bakso served with love and passion.
+            Temukan cita rasa Indonesia yang otentik dengan Mie Ayam dan Bakso tradisional kami yang disajikan dengan penuh cinta dan semangat.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/menu">
               <a className="px-8 py-4 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition text-center">
-                View Our Menu
+                Lihat Menu Kami
               </a>
             </Link>
             <a href="#locations" className="px-8 py-4 bg-transparent border-2 border-white text-white font-medium rounded-lg hover:bg-white/10 transition text-center">
-              Find Location
+              Temukan Lokasi
             </a>
           </div>
         </motion.div>
@@ -54,7 +54,7 @@ export default function Hero() {
         whileHover={{ opacity: 1 }}
       >
         <a href="#specialties" className="flex flex-col items-center hover:opacity-100 transition">
-          <span className="text-sm mb-2">Scroll Down</span>
+          <span className="text-sm mb-2">Gulir ke Bawah</span>
           <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Infinity, duration: 1.5 }}
